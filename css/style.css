@@ -1,0 +1,57 @@
+
+:root{
+    --bg-color:#1F2937;
+    --btn-color:#3882F6;
+    
+    
+}
+
+*{
+    margin: 0;
+    box-sizing:border-box;
+    padding:0;
+    text-decoration:none;
+}
+
+header{
+   background-color:#1F2937;
+   height:45vh;
+   border:2px solid green;
+}
+.hero{
+    margin:0 10rem;
+}
+
+header .navBar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:1rem;
+}
+
+.navBar .nav-items a{
+   color:#fff;
+    
+}
+
+ .navBar .nav-items a:not(:last-child){
+    margin-right:30px;
+    
+}
+
+.heroContent{
+    display:flex;
+    width:100%;
+    margin-top:5rem;
+    height:70%;
+}
+
+.heroContent .heroContent-01{
+ width:48%;
+ border:2px solid white;
+}
+
+.heroContent .heroContent-02{
+    width:48%;
+    border:2px solid teal;
+}
